@@ -39,7 +39,7 @@ export default function Header() {
           </nav>
 
           {/* Search and CTA */}
-          <div className="hidden md:flex items-center space-x-4">
+          {/* <div className="hidden md:flex items-center space-x-4">
             <button className="text-gray-700 hover:text-primary transition-colors">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -48,7 +48,7 @@ export default function Header() {
             <Link href="#contact" className="btn-primary">
               Get Quote
             </Link>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button

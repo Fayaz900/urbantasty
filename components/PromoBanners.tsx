@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import premiumImage from '../assets/premium.png'
+import bestPricesImage from '../assets/best_prices.png'
 
 export default function PromoBanners() {
   return (
@@ -9,7 +11,7 @@ export default function PromoBanners() {
           <div className="bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-2xl p-8 md:p-12 relative overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
               <div className="relative z-10">
-                <p className="text-secondary font-semibold mb-2">Premium Quality</p>
+                {/* <p className="text-secondary font-semibold mb-2">Premium Quality</p> */}
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
                   Fresh & Authentic Products
                 </h3>
@@ -23,7 +25,7 @@ export default function PromoBanners() {
               </div>
               <div className="relative aspect-square rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=600&fit=crop&q=80"
+                  src={premiumImage}
                   alt="Fresh authentic products"
                   fill
                   className="object-cover"
@@ -38,7 +40,7 @@ export default function PromoBanners() {
           <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 md:p-12 relative overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
               <div className="relative z-10">
-                <p className="text-primary font-semibold mb-2">Wholesale & Retail</p>
+                {/* <p className="text-primary font-semibold mb-2">Wholesale & Retail</p> */}
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
                   Best Prices for Everyone
                 </h3>
@@ -52,7 +54,7 @@ export default function PromoBanners() {
               </div>
               <div className="relative aspect-square rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1556910103-2c027eb7e8cf?w=600&h=600&fit=crop&q=80"
+                  src={bestPricesImage}
                   alt="Best prices for wholesale and retail"
                   fill
                   className="object-cover"
@@ -65,7 +67,7 @@ export default function PromoBanners() {
         </div>
 
         {/* Additional Promo */}
-        <div className="mt-8 bg-gradient-to-r from-primary-dark to-primary text-white rounded-2xl p-8 md:p-12 relative overflow-hidden">
+        {/* <div className="mt-8 bg-gradient-to-r from-primary-dark to-primary text-white rounded-2xl p-8 md:p-12 relative overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-accent font-semibold mb-2">Special Offer</p>
@@ -91,7 +93,7 @@ export default function PromoBanners() {
             </div>
           </div>
           <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-3xl"></div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

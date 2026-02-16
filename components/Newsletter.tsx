@@ -16,7 +16,7 @@ export default function Newsletter() {
   return (
     <>
       {/* Newsletter Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-dark to-primary text-white">
+      {/* <section className="py-20 bg-gradient-to-r from-primary-dark to-primary text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -57,7 +57,7 @@ export default function Newsletter() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
@@ -70,7 +70,7 @@ export default function Newsletter() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@ export default function Newsletter() {
                 </svg>
               </div>
               <h3 className="font-bold text-lg mb-2">Email Us</h3>
-              <p className="text-gray-600">info@urbantasty.com</p>
+              <p className="text-gray-600">urbantasty22@gmail.com</p>
             </div>
 
             <div className="text-center p-6 bg-gray-50 rounded-lg">
@@ -87,8 +87,9 @@ export default function Newsletter() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
-              <h3 className="font-bold text-lg mb-2">Call Us</h3>
-              <p className="text-gray-600">+1 (564) 345-0987</p>
+              <h3 className="font-bold text-lg mb-2">Phone</h3>
+              <p className="text-gray-600">+968 90909735 (Oman)</p>
+              <p className="text-gray-600">+91 9946178727 <br />+91 9846227691</p>
             </div>
 
             <div className="text-center p-6 bg-gray-50 rounded-lg">
@@ -99,7 +100,44 @@ export default function Newsletter() {
                 </svg>
               </div>
               <h3 className="font-bold text-lg mb-2">Visit Us</h3>
-              <p className="text-gray-600">4517 Washington Ave.<br />Manchester, Kentucky 39465</p>
+              <p className="text-gray-600">
+                2nd Floor, Illikkal Complex<br />
+                Pathadipalam, Edappally P.O.<br />
+                Kochi – 682024
+              </p>
+            </div>
+          </div>
+
+          {/* Company Information */}
+          <div className="max-w-4xl mx-auto bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl p-8 md:p-12 mb-12">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4">Company Information</h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold text-gray-700 mb-2">Company Name</h4>
+                  <p className="text-gray-600 text-lg">Urban Tasty</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-700 mb-2">Year of Establishment</h4>
+                  <p className="text-gray-600 text-lg">2022</p>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold text-gray-700 mb-2">Business Type</h4>
+                  <p className="text-gray-600 text-lg">Proprietorship</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-700 mb-2">Registered Address</h4>
+                  <p className="text-gray-600">
+                    2nd Floor, Illikkal Complex<br />
+                    Pathadipalam, Edappally P.O.<br />
+                    Kochi – 682024
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
