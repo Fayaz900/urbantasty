@@ -12,6 +12,7 @@ import changalamparandaImg from '../assets/Changalamparanda_Chatni.jpg'
 import bananaStemImg from '../assets/Banana_Stem_Kondattam.jpg'
 import coconutOilImg from '../assets/Coconut_Oil.jpg'
 import naruneendiImg from '../assets/Naruneendi.jpg'
+import milletHealthMixImg from '../assets/multi-millet-health-mix.webp'
 
 const products = [
   {
@@ -103,6 +104,14 @@ const products = [
     rating: 4.6,
     category: 'Beverages',
     image: naruneendiImg,
+  },
+  {
+    id: 11,
+    name: 'Millet Health Mix',
+    description: 'Its a blend of powdered pearl millet, raw banana (Kannankaya), Brown rice & roasted chickpeas',
+    rating: 4.6,
+    category: 'Powders',
+    image: milletHealthMixImg,
   },
 ]
 

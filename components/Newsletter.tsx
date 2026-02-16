@@ -88,8 +88,8 @@ export default function Newsletter() {
                 </svg>
               </div>
               <h3 className="font-bold text-lg mb-2">Phone</h3>
-              <p className="text-gray-600">+968 90909735 (Oman)</p>
               <p className="text-gray-600">+91 9946178727 <br />+91 9846227691</p>
+              <p className="text-gray-600">+968 90909735 (Oman)</p>
             </div>
 
             <div className="text-center p-6 bg-gray-50 rounded-lg">
@@ -101,7 +101,7 @@ export default function Newsletter() {
               </div>
               <h3 className="font-bold text-lg mb-2">Visit Us</h3>
               <p className="text-gray-600">
-                2nd Floor, Illikkal Complex<br />
+                2nd Floor, Ellikkal Complex<br />
                 Pathadipalam, Edappally P.O.<br />
                 Kochi – 682024
               </p>
@@ -132,7 +132,7 @@ export default function Newsletter() {
                 <div>
                   <h4 className="font-semibold text-gray-700 mb-2">Registered Address</h4>
                   <p className="text-gray-600">
-                    2nd Floor, Illikkal Complex<br />
+                    2nd Floor, Ellikkal Complex<br />
                     Pathadipalam, Edappally P.O.<br />
                     Kochi – 682024
                   </p>
