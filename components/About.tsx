@@ -1,3 +1,5 @@
+import Products from "./Products";
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-gray-50">
@@ -18,6 +20,8 @@ export default function About() {
             </p>
           </div>
         </div>
+
+        <Products/>
 
         {/* Vision and Mission Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -88,14 +92,14 @@ export default function About() {
           </div>
           
           <div className="grid grid-cols-2 gap-4">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+            {/* <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="text-4xl font-bold text-primary mb-2">500+</div>
               <div className="text-gray-600">Happy Clients</div>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+            </div> */}
+            {/* <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="text-4xl font-bold text-primary mb-2">10+</div>
               <div className="text-gray-600">Products</div>
-            </div>
+            </div> */}
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="text-4xl font-bold text-primary mb-2">2022</div>
               <div className="text-gray-600">Established</div>
